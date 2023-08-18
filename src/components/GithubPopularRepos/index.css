@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 30px;
+  font-family: 'Lobster';
+}
+
+.list-items {
+  display: flex;
+  list-style-type: none;
+}
+
+.contents-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.repositories-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
